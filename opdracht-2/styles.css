@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .product {
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
@@ -5,4 +15,72 @@
     width: 350px;
 }
 
-/* - Vul dit document aan met jouw eigen css! - */
+.product-info {
+    position: relative;
+}
+
+.product-info-image {
+    width: 100%;
+}
+
+.favorite-icon-img {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    height: 16px;
+}
+
+.label-image {
+    background-color: #e8e8e8;
+    color: #DE6127;
+    font-weight: 500;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 60px;
+    left: -65px;
+}
+
+.product-details p,
+h2 {
+    margin: 2px 0;
+}
+
+.product-label {
+    color: #737373;
+    font-size: 12px;
+}
+
+.product-type {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product-color-dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.product-color-dot + .product-color-dot {
+    margin-left: 2px;
+}
+
+.color-pink {
+    background-color: #faa0c7;
+}
+
+.color-black {
+    background-color: #272729;
+}
+
+.color-beige {
+    background-color: #928471;
+}
+
+.color-taupe {
+    background-color: #c2c2b4;
+}
+
